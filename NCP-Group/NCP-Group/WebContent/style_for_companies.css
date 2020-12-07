@@ -1,0 +1,130 @@
+
+
+
+nav
+{
+  width: 100%;
+  background: red;
+  overflow: auto;
+  height: 2cm;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 150px;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+
+ ;
+}
+li {
+  float: right;
+ 
+}
+
+.logo img{
+  position: absolute;
+  margin-top:0px ;
+  margin-left: 10px;
+ 
+}
+
+
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 1cm;
+  
+}
+
+li a:hover:not(.active) {
+  background-color:lightcoral;
+}
+
+.active {
+  background-color: #8080ff;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=email] ,textarea
+{
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.foot {
+  background-color: #ffe6e6;
+  text-align: center;
+  font-size: 20px;
+}
+
+.center
+{
+	text-align: center; 
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ff0066;
+  color: white;
+}
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff3333;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
