@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style_job_application.css">
+<body>
+<div class="wrapper">
+    <div class="title">
+      Job Application Form
+    </div>
+    <form class="form" onsubmit="return validateForm()">
+        <div class="inputfield">
+            <label>Company Name</label>
+            <input type="text" class="input" id="companyName">
+         
+            <div class="error" id="companyErr"></div>
+                             
+          </div>  
+         <div class="inputfield">
+            <label>Role Applied for</label>
+            <input type="text" class="input" id="roleApplied">
+            <div class="error" id="roleErr"></div>
+                             
+         </div>  
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input" id="firstN">
+          <div class="error" id="firstErr"></div>
+                             
+       </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input" id="lastN">
+          <div class="error" id="lastErr"></div>
+                             
+       </div>  
+     
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select id="gender">
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="error" id="genderErr"></div>
+                             
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" class="input" id="email">
+          <div class="error" id="emailErr"></div>
+                             
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" class="input" id="phonenum">
+       
+          <div class="error" id="phoneErr"></div>
+                             
+        </div> 
+      
+      <div class="inputfield">
+          <label>10th Percentage</label>
+          <input type="text" class="input" id="percentage">
+          <div class="error" id="perErr"></div>
+                             
+          </div> 
+      <div class="inputfield">
+          <label>12th Percentage</label>
+          <input type="text" class="input" id="Percentage">
+          <div class="error" id="percenErr"></div>
+                             
+          </div> 
+      <div class="inputfield">
+          <label>Current CGPA </label>
+          <input type="text" class="input" id="cgpa">
+          <div class="error" id="cgpaErr"></div>
+                               
+        </div> 
+        <div class="inputfield">
+          <label>Few Lines About Company</label>
+          <textarea class="textarea" id="lines"></textarea>
+          <div class="error" id="linesErr"></div>
+                             
+        </div> 
+
+      <div class="inputfield">
+        <input type="submit" value="Apply" class="btn">
+      </div>
+    </form>
+</div>
+<script src="jobvalidations.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    .button{
+  background-color: #808080;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 10px;
+  border-radius: 12px;
+  border: 2px solid #000000;
+  position:relative; left:680px; top:70px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+ ;
+}
+
+x {
+  position: absolute;
+  left: 800px; top:100px;
+}
+y {
+  position: absolute;
+  left: 550px; top:100px;
+}
+body {
+   
+  height: 100%; 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top:100px
+}
+
+
+</style>
+<ul>
+<h2 style="text-align:center">PLACEMENT SCHEDULE</h2>
+</ul>
+<y>
+  <label for="Branch">Branch:</label>
+  <select id="Branch" name="Branch">
+    <option value="select">select</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="AERO">AERO</option>
+  </select>
+</y>
+
+
+<x>
+  <label for="Month">Month:</label>
+  <select id="Month" name="Month">
+    <option value="select">select</option>
+    <option value="January">January</option>
+    <option value="February">February</option>
+    <option value="March">March</option>
+    <option value="April">April</option>
+    <option value="May">May</option>
+    <option value="June">June</option>
+    <option value="July">July</option>
+    <option value="August">August</option>
+    <option value="September">September</option>
+    <option value="October">October</option>
+    <option value="November">November</option>
+    <option value="December">December</option>
+  </select>
+</x>
+
+  <button class="button">Submit</button>
+
+  <table style="width:100%">
+    <tr>
+      <th>S.No</th>
+      <th>Name of the Company</th> 
+      <th>Date of exam</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Infosys</td>
+      <td>22-08-2020</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>HCL</td>
+      <td>23-08-2020</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Microsoft</td>
+      <td>24-08-2020</td>
+    </tr>
+  </table>
+
+
+</body>
+</html>

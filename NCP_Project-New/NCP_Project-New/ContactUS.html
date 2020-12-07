@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+                function highlight(id){
+                        document.getElementById(id).style.color="blue";
+                        document.getElementById(id).style.fontWeight="bold";
+                }
+                function unhighlight(id){
+                        document.getElementById(id).style.color="black";
+                        document.getElementById(id).style.fontWeight="normal";
+                }
+        </script>
+    </head>
+    <body>
+        <h1 align="center" style="background-color: rgb(214, 23, 23);color: white;">Contact us!</h1>
+    <table border="3" align="center">
+        <tr id='R1' onmouseover="highlight('R1')" onmouseout="unhighlight('R1')">
+            <td>Campus</td><td>Address</td><td>Phone No</td><td>Email and Website</td>
+        </tr>
+        <tr id="R2" onmouseover="highlight('R2')" onmouseout="unhighlight('R2')">
+            <td>Amritapuri</td>
+            <td>Amrita Vishwa Vidyapeetham<br/>
+                    Amritapuri Campus<br/>
+                    Amritapuri, Clappana P. O.<br/>
+                    Kollam - 690525<br/>
+                    Kerala, India
+            </td>
+            <td>+91 (476)  280 1280<br/>
+                +91 (476) 289 6178
+            </td>
+            <td>
+                    campus@am.amrita.edu</br>
+                    <button><a href="https://www.amrita.edu/campus/amritapuri" target="_window">Visit Site</a></button>
+            </td>
+        </tr>
+        <tr id="R3" onmouseover="highlight('R3')" onmouseout="unhighlight('R3')">
+                <td>Bengaluru</td>
+                <td>Amrita Vishwa Vidyapeetham<br/>
+                        Bengaluru Campus<br/>
+                        Kasavanahalli, Carmelaram P.O.<br/>
+                        Bengaluru - 560 035<br/>
+                        Karnataka, India
+                </td>
+                <td>+91 (80) 2518 3700<br/>
+                        +91 (80) 2843 9565<br/>
+                        +91 (80) 2843 9566<br/>
+                        +91 (80) 2844 0092
+                </td>
+                <td>
+                        info@blr.amrita.edu<br/>
+                        <button><a href="https://www.amrita.edu/campus/bengaluru" target="_window">Visit Site</a></button>
+                </td>
+        </tr>
+        <tr id="R4" onmouseover="highlight('R4')" onmouseout="unhighlight('R4')">
+                <td>Coimbatore</td>
+                <td>Amrita Vishwa Vidyapeetham<br/>
+                        Coimbatore Campus<br/>
+                        Amritanagar<br/>
+                        Coimbatore - 641 112<br/>
+                        Tamilnadu, India
+                </td>
+                <td>
+                    +91 (422) 2685 000<br/>
+                    +91 (422) 2686 274
+                </td>
+                <td>     univhq@amrita.edu</br>
+                        <button><a href="https://www.amrita.edu/campus/coimbatore" target="_window">Visit Site</a></button>
+                </td>
+        </tr>
+        <tr id="R5" onmouseover="highlight('R5')" onmouseout="unhighlight('R5')">
+                <td>Kochi</td>
+                <td>
+                        Amrita Vishwa Vidyapeetham<br/>
+                        Health Sciences Campus<br/>
+                        Amrita Institute of Medical Sciences<br/>
+                        Elamakkara P.O.<br/>
+                        Kochi - 682 041<br/>
+                        Kerala, India
+                </td>
+                <td>
+                        +91 (484) 285 5651<br/>
+                        +91 (484) 285 8374<br/>
+                        +91 (484) 280 2020<br/>
+                        +91 (484) 285 8382<br/>
+                        +91 (484) 668 8382
+                </td>
+                <td>    medicalcollege@aims.amrita.edu<br/>
+                        <button><a href="https://www.amrita.edu/campus/kochi" target="_window">Visit Site</a></button>
+                </td>
+        </tr>
+    </table>
+</body>
+</html>

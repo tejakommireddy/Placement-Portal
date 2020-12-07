@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+.container {
+  padding: 0 16px;
+  background-color:red;
+  size:initial;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,400;1,900&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    
+<div class="about-section">
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="hcl.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>HCL</h2>
+        <p>Amrita University is a good institute which offers good training as per the need of
+          the Industry. The candidates are good and willing to learn new technology. We are
+          very happy to give such internship opportunities for Amrita students.We are 
+          extremely happy to place your candidates in our organization. We found
+          the your college teaching equip students to face today’s challenges in IT industry
+          Students are competitive enough.
+          </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="infosys.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>INFOSYS</h2>
+        <p>We take extreme pleasure in getting associated with Amrita Universityfor recruiting
+          your students as Interns/Permanent employees in our company. We truly appreciate
+          your combined efforts to set up an exclusive placement division to benefit your
+          students.Over all it was a very good experience and I thank every one from the institute
+          who organised the drive.The students are very strong technically and we thank you once
+          again.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="tcs.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>TCS</h2>
+        <p>Thanks for inviting TCS to join Amrita University's Placement Program, its indeed
+           our pleasure to be a part of it.The students have also cooperated with us and participated 
+           with enthusiasm.We take extreme pleasure in recruiting your students as 
+           Interns/Permanent employees in our company.We wish all the best for Amrita University in 
+           producing future Indian talents for the global
+           market.We are looking forward to work with Amrita in future</p>
+      </div>
+    </div>
+	</div>
+
+
+
+</body>
+</html>

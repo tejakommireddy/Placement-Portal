@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .button {
+     width: 22%;
+     height:90%;
+     border: none;
+     background-color:rgb(214, 23, 23);
+     color: white;
+     padding-top: 20px;
+     padding: 10px 24px;
+     font-size: 16px;
+     cursor: pointer;
+     text-align: center;
+     
+   }
+   
+   .button:hover {
+     background-color: gray;
+     color: white;
+     font-weight: bold;
+   }
+   body{
+      color:black;
+      font-weight:bold;
+      font-size:25px;
+      text-align: center;
+      padding-top: 20px;
+   }
+   div{
+       padding-top: 20px;
+       text-align: center;
+   }
+        </style>
+    </head>
+    <body>
+        <form action="http://localhost:8081/NCP-Group/GetJobTitle" method="GET">
+            Job Title:
+            <input type="text" name="JobTitle"/>
+            <div><input class="button" type="Submit" value="Search"/></div>
+        </form>
+    </body>
+</html>
